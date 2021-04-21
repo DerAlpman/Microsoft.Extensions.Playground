@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using DataClasses;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
 namespace PlaygroundConsole
@@ -11,10 +12,7 @@ namespace PlaygroundConsole
         static async Task Main(string[] args)
         {
             using IHost host = CreateHostBuilder(args).Build();
-
-            await host.RunAsync();
-
-            await host.StopAsync();
+            await host.StartAsync();
         }
 
         private static IHostBuilder CreateHostBuilder(string[] args)
