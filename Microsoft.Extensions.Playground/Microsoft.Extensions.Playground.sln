@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{AA5DE0F6-AC8C-40CE-A04A-221E10F7C5F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaygroundConsole", "UI\PlaygroundConsole\PlaygroundConsole.csproj", "{AB4B5D9A-8D27-4DF4-BA2A-9863A1F83EFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataClasses", "UI\DataClasses\DataClasses.csproj", "{8040CFC0-6920-469F-BE12-659BB2ABFB1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB4B5D9A-8D27-4DF4-BA2A-9863A1F83EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB4B5D9A-8D27-4DF4-BA2A-9863A1F83EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB4B5D9A-8D27-4DF4-BA2A-9863A1F83EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB4B5D9A-8D27-4DF4-BA2A-9863A1F83EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8040CFC0-6920-469F-BE12-659BB2ABFB1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8040CFC0-6920-469F-BE12-659BB2ABFB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8040CFC0-6920-469F-BE12-659BB2ABFB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8040CFC0-6920-469F-BE12-659BB2ABFB1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB4B5D9A-8D27-4DF4-BA2A-9863A1F83EFE} = {AA5DE0F6-AC8C-40CE-A04A-221E10F7C5F3}
+		{8040CFC0-6920-469F-BE12-659BB2ABFB1E} = {AA5DE0F6-AC8C-40CE-A04A-221E10F7C5F3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CE8B8D2-F744-401B-BB0F-CD2562106DFB}
+	EndGlobalSection
+EndGlobal
